@@ -1,0 +1,19 @@
+h1{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(182, 146, 30);
+    text-align: center;
+    position: relative;
+    align-content: center;
+    padding: 12px 30px;
+    width: 10%;
+    background-color: black;
+    display: inline-table;
+
+
+
+}
+
+body{
+    background-color: aliceblue;
+}
