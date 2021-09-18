@@ -1,19 +1,75 @@
-h1{
-    font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(182, 146, 30);
-    text-align: center;
-    position: relative;
-    align-content: center;
-    padding: 12px 30px;
-    width: 10%;
-    background-color: black;
-    display: inline-table;
-
-
-
+header{
+    background-color: #0769AC;
+    width: 100%;
+    padding: 1px;
+    color: white;
+    border-radius: 3px;
 }
 
 body{
-    background-color: aliceblue;
+    width: 1024px;
+    margin: 0 auto;
+    background-color:#E8FAF3;
+}
+
+main{
+    width: 1024px;
+    padding: 0%;
+    margin: 0 auto;
+    background-color:white;
+}
+
+h1{
+    font-family: 'Alef', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Alef', sans-serif;
+    font-style: normal;
+    text-align: left;
+}
+
+h3{
+    font-family: 'Alef', sans-serif;
+    font-style: normal;
+    text-align: left;
+}
+
+li {
+    float: left;
+  }
+
+li a{
+    font-family:"Alef", sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #06568C;
+  }
+
+ul{
+    list-style-type: none;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+menu{
+    background-color:#E8FAF3;
+    width: 100%;
+    padding: 1px;
 }
