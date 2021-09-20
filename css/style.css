@@ -1,5 +1,5 @@
 header{
-    background-color: #0769AC;
+    background-color: #FFB344;
     width: 100%;
     padding: 1px;
     color: white;
@@ -9,7 +9,7 @@ header{
 body{
     width: 1024px;
     margin: 0 auto;
-    background-color:#E8FAF3;
+    background-color:#FFF8E5;
 }
 
 main{
@@ -20,21 +20,39 @@ main{
 }
 
 h1{
-    font-family: 'Alef', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     text-align: center;
 }
 
 h2{
-    font-family: 'Alef', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     text-align: left;
 }
 
 h3{
-    font-family: 'Alef', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     text-align: left;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+form{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #444444;
+    margin: 20px;
+}
+
+
+input{
+margin: 10px;
+width: 300px;
 }
 
 li {
@@ -42,7 +60,7 @@ li {
   }
 
 li a{
-    font-family:"Alef", sans-serif;
+    font-family:"Open Sans", sans-serif;
     display: block;
     color: white;
     text-align: center;
@@ -52,11 +70,11 @@ li a{
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #FFB344;
   }
 
   .active {
-    background-color: #06568C;
+    background-color: #E05D5D;
   }
 
 ul{
@@ -72,4 +90,16 @@ menu{
     background-color:#E8FAF3;
     width: 100%;
     padding: 1px;
+}
+
+hr{
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    color: #787A91;
+
 }

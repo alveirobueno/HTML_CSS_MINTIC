@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta es una breve descripción de la página, es importante para que e los buscadores aparezca esta descripción.">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo de gestión de usuarios</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="../resources/matrixLogistics_icon2.png" alt="icon">
+        </figure>
+        <h1>Módulo de gestión de usuarios</h1>
+    </header>
+
+    <main>
+        <section>
+            <h1>Módulo de creación de usuarios</h1>
+            <form action="">
+                <label for="nombre">
+                    <span>Nombres:</span>
+                    <input type="text" id ="nombre" placeholder="Escribe los nombres">
+                </label>
+                <label for="apellido">
+                    <span>Apellidos:</span>
+                    <input type="text" id ="apellido" placeholder="Escribe los apellidos">
+                    <br>
+                </label>
+                <label for="perfil">
+                    <span>Perfil:</span>
+                    <input list="perfil" id="perfil" placeholder="Selecciona el perfil de usuario">
+                    <datalist id="Cursos">
+                        <option value="Administrador"></option>
+                        <option value="Ejecutivo de ventas"></option>
+                        <option value="Coordinador de ventas"></option>
+                        <option value="Analista de ventas"></option>
+                    </datalist>
+                </label>
+                <label for="usuario">
+                    <span>Nombre de usuario:</span>
+                    <input type="text" id ="usuario" placeholder="Escriba el nombre de usuario">
+                    <br>
+                </label>
+                <label for="password">
+                    <span>Password:</span>
+                    <input type="password" id ="password" placeholder="Asigne un password">
+                </label>
+                <input type="submit" value="Agregar">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
