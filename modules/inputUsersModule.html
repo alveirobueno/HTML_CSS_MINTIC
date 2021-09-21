@@ -32,15 +32,15 @@
         <section>
             <h1>Inicio de sesión</h1>
             <p>Ingrese sus datos para iniciar sesión en el módulo:</p>
-            <form action="homeUsersModule.html">
+            <form action="homeUsersModule.html" onsubmit="return()">
                 <label for="usuario">
                     <span>Usuario</span>
-                    <input type="text" id ="usuario" placeholder="Escribe tu nombre de usuario">
+                    <input type="text" id ="usuario" placeholder="Escribe tu nombre de usuario" autocomplete="username" required>
                     <br>
                 </label>
                 <label for="password">
                     <span>Password</span>
-                    <input type="password" id ="password" placeholder="Escribe tu password">
+                    <input type="password" id ="password" placeholder="Escribe tu password" autocomplete="current-password" required>
                     <br>
                 </label>
                 <input type="submit" value="Enviar">
