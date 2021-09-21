@@ -22,29 +22,31 @@
 
     <main>
         <section>
-            <menu>
+            <nav>
                 <ul>
                     <li><a class="active" href="../index.html">Página principal</a></li>
                 </ul>
-            </menu>
+            </nav>
         </section>
 
         <section>
-            <h1>Inicio de sesión</h1>
+            <h2 class="subtitle_page">Inicio de sesión</h2>
             <p>Ingrese sus datos para iniciar sesión en el módulo:</p>
+
             <form action="homeUsersModule.html" onsubmit="return()">
                 <label for="usuario">
-                    <span>Usuario</span>
+                    <span>Usuario:</span>
                     <input type="text" id ="usuario" placeholder="Escribe tu nombre de usuario" autocomplete="username" required>
                     <br>
                 </label>
                 <label for="password">
-                    <span>Password</span>
+                    <span>Contraseña:</span>
                     <input type="password" id ="password" placeholder="Escribe tu password" autocomplete="current-password" required>
                     <br>
                 </label>
-                <input type="submit" value="Enviar">
+                <input class="submitButton" type="submit" value="Ingresar">
             </form>
+            
         </section>
 
         <section>

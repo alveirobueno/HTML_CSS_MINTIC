@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -22,44 +22,65 @@
 
     <main>
         <section>
-            <h1>Módulo de creación de usuarios</h1>
-            <form action="">
+            <nav>
+                <ul>
+                    <li><a class="active" href="homeUsersModule.html">Inicio</a></li>
+                    <li><a href="oldUsers.html">Usuarios registrados</a></li>
+                    <li><a href="roleUsers.html">Definición de roles</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <h2 class="subtitle_page">Creación de nuevos usuarios</h2>
+            <p>Para crear un nuevo usuario diligencie el siguiente formulario, asegúrese de llenar todos los campos.</p>
+            
+            <form action="./sucess.html">
                 <label for="nombre">
                     <span>Nombres:</span>
-                    <input type="text" id ="nombre" placeholder="Escribe los nombres">
+                    <input type="text" id ="nombre" placeholder="Escribe los nombres" autocomplete="off" required>
                 </label>
                 <label for="apellido">
                     <span>Apellidos:</span>
-                    <input type="text" id ="apellido" placeholder="Escribe los apellidos">
-                    <br>
+                    <input type="text" id ="apellido" placeholder="Escribe los apellidos" autocomplete="off" required>
                 </label>
                 <label for="perfil">
                     <span>Perfil:</span>
-                    <input list="perfil" id="perfil" placeholder="Selecciona el perfil de usuario">
-                    <datalist id="Cursos">
+                    <!-- <input list="perfil" placeholder="Selecciona el perfil de usuario" required> -->
+                    <!-- <datalist id="perfil">
                         <option value="Administrador"></option>
                         <option value="Ejecutivo de ventas"></option>
                         <option value="Coordinador de ventas"></option>
                         <option value="Analista de ventas"></option>
-                    </datalist>
+                    </datalist> -->
+                    <select name="perfil" id="perfil" autocomplete="off" required>
+                        <option value="Coordinador de ventas">Operario</option>
+                        <option value="Administrador">Vendedor</option>
+                        <option value="Ejecutivo de ventas">Ejecutivo</option>
+                        <option value="Coordinador de ventas">Gerente comercial</option>
+                        <option value="Coordinador de ventas">Director</option>
+                        <option value="Analista de ventas">Administrador</option>
+                    </select>
                 </label>
                 <label for="usuario">
                     <span>Nombre de usuario:</span>
-                    <input type="text" id ="usuario" placeholder="Escriba el nombre de usuario">
-                    <br>
+                    <input type="text" id ="usuario" placeholder="Escriba el nombre de usuario" autocomplete="off" required>
                 </label>
                 <label for="password">
                     <span>Password:</span>
-                    <input type="password" id ="password" placeholder="Asigne un password">
+                    <input type="password" id ="password" placeholder="Asigne un password" autocomplete="off" required>
                 </label>
-                <input type="submit" value="Agregar">
+                <input class="submitButton" type="submit" value="Agregar usuario">
             </form>
         </section>
 
     </main>
 
     <footer>
-
+        <figure>
+            <img src="../resources/matrixLogistics_icon50px.png" alt="icon">
+            <span>Copyrigh MatrixStyle - Ministerio de las TIC - 2021</span>
+        </figure>
     </footer>
     
 </body>

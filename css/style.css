@@ -1,15 +1,24 @@
-header{
-    background-color: #FFB344;
-    width: 100%;
-    padding: 1px;
-    color: white;
-    border-radius: 3px;
+/* SELECTOR UNIVERSAL para resetear las configuraciones por defecto*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body{
     width: 1024px;
     margin: 0 auto;
     background-color:#FFF8E5;
+}
+
+
+
+header{
+    background-color: #FFB344;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
 }
 
 main{
@@ -25,7 +34,14 @@ h1{
     text-align: center;
 }
 
-h2{
+.subtitle_page {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     text-align: left;
@@ -35,6 +51,7 @@ h3{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     text-align: left;
+    padding: 20px;
 }
 
 p {
@@ -46,13 +63,35 @@ form{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #444444;
-    margin: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
 }
 
 
-input{
-margin: 10px;
-width: 300px;
+.submitButton {
+    margin: 10px;
+    width: 150px;
+    border-radius: 5px; 
+    }
+
+.submitButton:hover {
+    background-color:#d7d5d8;
+
+}
+
+nav {
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li {
@@ -61,6 +100,7 @@ li {
 
 li a{
     font-family:"Open Sans", sans-serif;
+    font-size: 14px;
     display: block;
     color: white;
     text-align: center;
@@ -73,33 +113,69 @@ li a:hover:not(.active) {
     background-color: #FFB344;
   }
 
-  .active {
+.active {
     background-color: #E05D5D;
   }
 
-ul{
-    list-style-type: none;
-    border-radius: 3px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+input {
+width: 300px;
+border-radius: 5px;
+display: block;
+margin-bottom: 20px;
 }
 
-menu{
+select {
+    width: 300px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+    }
+
+menu {
     background-color:#E8FAF3;
     width: 100%;
     padding: 1px;
 }
 
-hr{
+hr {
     width: 100%;
     margin-top: 50px;
 }
 
 footer {
+    padding: 10px;
+    margin-top: 20px;
     display: inline-block;
     font-family: "Open Sans", sans-serif;
     color: #787A91;
-
 }
+
+.emergente_sucess {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    padding: 20px;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    background-color:#444444;
+    color: white;
+  }
+
+td {
+    border: 1px solid #E05D5D;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .table_td_img {
+      width: 50px;
+      height: 50px;
+  }
