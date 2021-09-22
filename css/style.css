@@ -6,26 +6,36 @@
 }
 
 body{
-    width: 1024px;
+    width: 100vw;
     margin: 0 auto;
     background-color:#FFF8E5;
 }
 
-
-
 header{
     background-color: #FFB344;
-    width: 100%;
+    margin: 0 auto;
+    width: 70%;
     padding: 20px;
     color: white;
     border-radius: 5px;
+    min-width: 375px;
+    max-width: 1024px;
 }
 
 main{
-    width: 1024px;
+    width: 70%;
     padding: 0%;
     margin: 0 auto;
-    background-color:white;
+    background-color:#FFF8E5;
+    margin-bottom: 20px;
+    min-width: 375px;
+    max-width: 1024px;
+}
+
+section {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 h1{
@@ -94,11 +104,9 @@ ul{
     background-color: #333;
 }
 
-li {
-    float: left;
-  }
 
 li a{
+    float: left;
     font-family:"Open Sans", sans-serif;
     font-size: 14px;
     display: block;
@@ -116,6 +124,9 @@ li a:hover:not(.active) {
 .active {
     background-color: #E05D5D;
   }
+#exit {
+    float: right;
+}
 
 input {
 width: 300px;
@@ -143,9 +154,11 @@ hr {
 }
 
 footer {
-    padding: 10px;
-    margin-top: 20px;
-    display: inline-block;
+    width: 70%;
+    min-width: 375px;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color:#FFF8E5;
     font-family: "Open Sans", sans-serif;
     color: #787A91;
 }
@@ -157,8 +170,10 @@ footer {
 }
 
 table {
-    padding: 20px;
-    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 90%;
+    border-collapse: collapse;
 }
 
 th {
@@ -167,10 +182,13 @@ th {
     font-weight: bold;
     background-color:#444444;
     color: white;
+    border-radius: 5px;
   }
 
 td {
-    border: 1px solid #E05D5D;
+    border: 1px rgb(133, 133, 133) ridge;
+    border-radius: 5px;
+    background-color: #f7f5f8;
     text-align: left;
     padding: 8px;
   }
