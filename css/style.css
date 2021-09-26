@@ -1,8 +1,14 @@
 /* SELECTOR UNIVERSAL para resetear las configuraciones por defecto*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Montserrat;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body{
@@ -12,7 +18,7 @@ body{
 }
 
 header{
-    background-color: #FFB344;
+    background-color: #FF9F1C;
     margin: 0 auto;
     width: 70%;
     padding: 20px;
@@ -26,57 +32,67 @@ main{
     width: 70%;
     padding: 0%;
     margin: 0 auto;
-    background-color:#FFF8E5;
+    background-color:white;
     margin-bottom: 20px;
     min-width: 375px;
     max-width: 1024px;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
 }
 
 section {
     background-color: white;
-    margin-top: 10px;
+    margin-top: 1rem;
     border-radius: 5px;
 }
 
 h1{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
+    font-size: 2rem;
+    font-weight: bold;
     text-align: center;
 }
 
 .subtitle_page {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
     text-align: center;
     padding: 10px;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: bold;
     text-align: left;
 }
 
 h3{
-    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
     font-style: normal;
     text-align: left;
     padding: 20px;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
     padding: 20px;
 }
 
+span{
+    font-size: 1.3rem;
+}
+
 form{
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #444444;
     margin-left: 20px;
     margin-bottom: 10px;
     padding-bottom: 20px;
 
+}
+
+select {
+    color: #444444;
+    font-weight:bolder;
+    font-size: 1.2rem;
+    background-color:#FFF8E5;
 }
 
 
@@ -91,8 +107,8 @@ form{
 
 }
 
-nav {
-    margin-top: 10px;
+section nav {
+    margin-top: 1rem;
 }
 
 ul{
@@ -101,29 +117,27 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #011627;
 }
 
 
 li a{
     float: left;
-    font-family:"Open Sans", sans-serif;
-    font-size: 14px;
-    display: block;
+    font-size: 1.3rem;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    display: inline-block; 
 }
 
 li a:hover:not(.active) {
-    background-color: #FFB344;
-  }
+    background-color: #E71D36;
+}
 
 .active {
-    background-color: #E05D5D;
-  }
+    background-color: #2EC4B6;
+}
+
 #exit {
     float: right;
 }
@@ -149,8 +163,9 @@ menu {
 }
 
 hr {
+    border-color: #FFF8E5;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 2rem;
 }
 
 footer {
@@ -159,19 +174,19 @@ footer {
     max-width: 1024px;
     margin: 0 auto;
     background-color:#FFF8E5;
-    font-family: "Open Sans", sans-serif;
     color: #787A91;
 }
 
 .emergente_sucess {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
 }
 
 table {
+    font-size: 1.3rem;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     width: 90%;
     border-collapse: collapse;
 }
