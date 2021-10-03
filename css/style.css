@@ -90,7 +90,30 @@ form{
     margin-left: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
+<<<<<<< HEAD
 
+}
+
+.form2 {
+    background-color: #F9F9FA;
+}
+
+option {
+    width: fit-content;
+}
+=======
+>>>>>>> e6df71d995b09c055e49dbaf3e21a6b733dd9091
+
+label{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.labelCheck{
+    font-size: 1.3rem;
+    display: flex;
+    padding: 0px;
+    margin: opx;
 }
 
 .form2 {
