@@ -113,26 +113,6 @@ label{
     margin: opx;
 }
 
-.form2 {
-    background-color: #F9F9FA;
-}
-
-option {
-    width: fit-content;
-}
-
-label{
-    display: inline-block;
-    margin: 1rem;
-}
-
-.labelCheck{
-    font-size: 1.3rem;
-    display: flex;
-    padding: 0px;
-    margin: opx;
-}
-
 select {
     width: fit-content;
     color: #444444;
